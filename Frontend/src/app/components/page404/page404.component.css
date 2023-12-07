@@ -1,0 +1,25 @@
+/* Estilos para el fondo degradado */
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  background: linear-gradient(to bottom, #8e44ad, #c0392b); /* Cambia los colores según tus preferencias */
+}
+
+.error-title {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #fff; /* Cambia el color del título si es necesario */
+}
+
+.error-message {
+  font-size: 1.5em;
+  color: #fff; /* Cambia el color del mensaje si es necesario */
+}
+.emoji {
+  font-size: 1.2em; /* Ajusta el tamaño del emoji */
+  margin-left: 5px; /* Ajusta el espacio entre el mensaje y el emoji si es necesario */
+}

@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700&display=swap');
+html, body { height: 100%; }
+body { margin: 0;
+  font-family: 'Dosis'; }
+
+
+
+
+/* Gama de colores par angular material*/
+
+:root {
+  /* Electric Violet */
+  --ElectricViolet_10: #2B096C;
+  --ElectricViolet_09: #49139F;
+  --ElectricViolet_08: #49139F;
+  --ElectricViolet_07: #5714C3;
+  --ElectricViolet_06: #772BFC;
+  --ElectricViolet_05: #854FFF;
+  --ElectricViolet_04: #A181FF;
+  --ElectricViolet_03: #BFAFFF;
+  --ElectricViolet_02: #DBD3FF;
+  --ElectricViolet_01: #ECE7FF;
+  --ElectricViolet_00: #F4F2FF;
+
+  /* Blue */
+  --Blue_10: #151155;
+  --Blue_09: #201D92;
+  --Blue_08: #2118BB;
+  --Blue_07: #2E20E9;
+  --Blue_06: #3125FF;
+  --Blue_05: #454BFF;
+  --Blue_04: #6879FF;
+  --Blue_03: #93A9FF;
+  --Blue_02: #BCCBFF;
+  --Blue_01: #DAE3FF;
+  --Blue_00: #EAF0FF;
+
+  /* Gris */
+  --gris_unico: #A4A1AA;
+  --blanco: #ffffff;
+
+  /* Nombres de variable para cada conjunto */
+  --electric-violet-colors: var(--ElectricViolet_10) var(--ElectricViolet_09) var(--ElectricViolet_08) var(--ElectricViolet_07) var(--ElectricViolet_06) var(--ElectricViolet_05) var(--ElectricViolet_04) var(--ElectricViolet_03) var(--ElectricViolet_02) var(--ElectricViolet_01) var(--ElectricViolet_00);
+  --blue-colors: var(--Blue_10) var(--Blue_09) var(--Blue_08) var(--Blue_07) var(--Blue_06) var(--Blue_05) var(--Blue_04) var(--Blue_03) var(--Blue_02) var(--Blue_01) var(--Blue_00);
+  --gris-color: var(--gris_unico);
+  --blanco-color: var(--blanco);
+
+
+}
