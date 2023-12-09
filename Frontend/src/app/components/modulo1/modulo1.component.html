@@ -1,8 +1,8 @@
 <br>
+<br>
 <app-navbar></app-navbar>
 <br>
-<br>
-<br>
+
 <div class="contenedor-tarjetas">
   <div class="empleado">
     <mat-card class="tarjeta-empleado">
@@ -19,12 +19,39 @@
         <p>Fase: Grupo 1</p>
       </mat-card-content>
     </mat-card>
+
+    <div class="redessociales">
+      <div fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="end">
+        <div fxFlex="10%">
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="../../../assets/img/facebookF.png" alt="Imagen 1" style="width: 100%;">
+          </a>
+        </div>
+        <div fxFlex="10%">
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="../../../assets/img/instagramF.png" alt="Imagen 2" style="width: 100%;">
+          </a>
+        </div>
+        <div fxFlex="10%">
+          <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D" target="_blank">
+            <img src="../../../assets/img/twiterF.png" alt="Imagen 3" style="width: 100%;">
+          </a>
+        </div>
+        <div fxFlex="10%">
+          <a href="https://api.whatsapp.com/" target="_blank">
+            <img src="../../../assets/img/whatsappF.png" alt="Imagen 4" style="width: 100%;">
+          </a>
+        </div>
+      </div>
+    </div>
+
+
   </div>
 
   <div class="targetas">
-    <mat-card class="tarjeta-habilidades">
+    <mat-card class="tarjeta-habilidades tarjeta-color-borde ">
       <mat-card-header>
-        <mat-card-title>Habilidades</mat-card-title>
+        <mat-card-title class="tarjeta-titulo">Habilidades</mat-card-title>
       </mat-card-header>
       <mat-card-content>
         <!-- Contenido de las habilidades -->
@@ -38,9 +65,9 @@
       </mat-card-content>
     </mat-card>
 
-    <mat-card class="tarjeta-metas">
+    <mat-card class="tarjeta-metas tarjeta-color-borde ">
       <mat-card-header>
-        <mat-card-title>Metas</mat-card-title>
+        <mat-card-title class="tarjeta-titulo">Metas</mat-card-title>
       </mat-card-header>
       <mat-card-content>
         <!-- Contenido de las metas -->

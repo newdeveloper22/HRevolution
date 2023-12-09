@@ -3,9 +3,9 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: var(--Blue_04); /* Usar la variable para el color de fondo */
+  background-color: var(--Blue_04);
   cursor: pointer;
-  margin: -14px -13px; /* Ajustar el margen según sea necesario */
+  margin: -14px -13px; 
 }
 
 

@@ -1,0 +1,42 @@
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; 
+
+}
+
+
+/* login.component.css */
+
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color:var(--ElectricViolet_03);
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  background-color:var(--ElectricViolet_10);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color:var(--ElectricViolet_06);
+}
