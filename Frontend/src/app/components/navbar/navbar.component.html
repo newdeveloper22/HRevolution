@@ -1,0 +1,13 @@
+<div class="container">
+<button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Toggle menu" class="custom-button">
+  <span class="circle" (click)="toggleMenu($event)"></span>
+</button>
+
+<mat-menu #menu="matMenu">
+  <button mat-menu-item routerLink="/session">Inicio</button>
+  <button mat-menu-item routerLink="/perfiles">Modulo 1</button>
+  <button mat-menu-item routerLink="/ruta-del-modulo-2">Modulo 2</button>
+
+ </mat-menu>
+
+</div>
